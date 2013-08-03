@@ -44,15 +44,15 @@ class Api::DistributionListsController < ApplicationController
             }
           ]
         }, {
-          name: "Lunch"
+          name: "Lunch",
           categories: [{
-              title: ""
+              title: "",
               products: []
             }]
           }, {
-          name: "Dinner"
+          name: "Dinner",
           categores: [{
-            title: ""
+            title: "",
             products: []
           }]
         }]

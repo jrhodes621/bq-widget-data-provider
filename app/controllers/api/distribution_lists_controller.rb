@@ -11,7 +11,7 @@ class Api::DistributionListsController < ApplicationController
           name: "Location 1"
         }],
       lists: [{
-          name: "Breakfast",
+          name: "Brunch",
           categories: [{
             title: "Appetizers",
             products: [{
@@ -35,14 +35,26 @@ class Api::DistributionListsController < ApplicationController
                 description: ""
               }]
             }, {
-              name: "Drinks",
-              products: [{
-                primary_image_url: "",
-                title: "",
-                description: ""
+            name: "Drinks",
+            products: [{
+              primary_image_url: "",
+              title: "",
+              description: ""
               }]
             }
           ]
+        }, {
+          name: "Lunch"
+          categories: [{
+              title: ""
+              products: []
+            }]
+          }, {
+          name: "Dinner"
+          categores: [{
+            title: ""
+            products: []
+          }]
         }]
       }
 

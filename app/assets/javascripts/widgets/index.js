@@ -4,4 +4,3 @@
 //= require ./angular_init
 //= require_directory ./controllers
 //= require_directory ./services
-//= require_directory ./directives

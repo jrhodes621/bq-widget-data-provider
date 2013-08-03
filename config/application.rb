@@ -54,9 +54,21 @@ module WidgetDataProvider
     config.active_record.whitelist_attributes = true
 
     # Enable the asset pipeline
+    # Enable the asset pipeline
     config.assets.enabled = true
-    config.assets.initialize_on_precompile = false
-    
+
+    # Version of your assets, change this if you want to expire all your assets
+    config.assets.version = '1.0'
+    config.assets.paths << Rails.root.join("app", "assets", "images", "mail")
+    config.assets.paths << Rails.root.join("public", "mobile", "images")
+    #config.assets.paths << Rails.root.join("public", "mobile", "javascripts")
+    #config.assets.paths << Rails.root.join("public", "mobile", "stylesheets")
+    config.assets.paths << Rails.root.join("public", "mobile", "images")
+
+    config.assets.paths << Rails.root.join('public', 'merchants', 'assets')
+
+    config.assets.paths << Rails.root.join("app", "assets", "images", "mobile", "media_images")
+
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
   end

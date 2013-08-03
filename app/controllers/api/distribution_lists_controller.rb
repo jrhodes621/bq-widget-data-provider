@@ -9,6 +9,15 @@ class Api::DistributionListsController < ApplicationController
     widget ={
       locations: [{
           name: "Location 1"
+          street_address_line_1: "2603 E. Main St"
+          city: "Richmond"
+          state: "VA"
+          zip_code: "23323"
+          phone: 8043550001
+          media: [{
+              media_type: "image"
+              url: ""
+            }]
         }],
       lists: [{
           name: "Brunch",

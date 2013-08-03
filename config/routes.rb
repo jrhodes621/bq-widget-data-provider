@@ -1,4 +1,8 @@
 WidgetDataProvider::Application.routes.draw do
+
+  namespace :api do
+    resources :distribution_lists
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

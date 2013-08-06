@@ -2376,7 +2376,7 @@ a.list-group-item.active .list-group-item-text {
   color: #e1edf7;
 }
 
-.panel {
+.widget-panel {
   padding: 15px;
   margin-bottom: 20px;
   background-color: #ffffff;
@@ -2386,24 +2386,24 @@ a.list-group-item.active .list-group-item-text {
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
-.panel .list-group {
+.widget-panel .list-group {
   margin: 15px -15px -15px;
 }
 
-.panel .list-group .list-group-item {
+.widget-panel .list-group .list-group-item {
   border-width: 1px 0;
 }
 
-.panel .list-group .list-group-item:first-child {
+.widget-panel .list-group .list-group-item:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
 
-.panel .list-group .list-group-item:last-child {
+.widget-panel .list-group .list-group-item:last-child {
   border-bottom: 0;
 }
 
-.panel-heading {
+.widget-panel-heading {
   padding: 10px 15px;
   margin: -15px -15px 15px;
   background-color: #f5f5f5;
@@ -2412,14 +2412,14 @@ a.list-group-item.active .list-group-item-text {
   border-top-left-radius: 3px;
 }
 
-.panel-title {
+.widget-panel-title {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 17.5px;
   font-weight: 500;
 }
 
-.panel-footer {
+.widget-panel-footer {
   padding: 10px 15px;
   margin: 15px -15px -15px;
   background-color: #f5f5f5;
@@ -2428,51 +2428,51 @@ a.list-group-item.active .list-group-item-text {
   border-bottom-left-radius: 3px;
 }
 
-.panel-primary {
+.widget-panel-primary {
   border-color: #428bca;
 }
 
-.panel-primary .panel-heading {
+.widget-panel-primary .widget-panel-heading {
   color: #ffffff;
   background-color: #428bca;
   border-color: #428bca;
 }
 
-.panel-success {
+.widget-panel-success {
   border-color: #d6e9c6;
 }
 
-.panel-success .panel-heading {
+.widget-panel-success .widget-panel-heading {
   color: #468847;
   background-color: #dff0d8;
   border-color: #d6e9c6;
 }
 
-.panel-warning {
+.widget-panel-warning {
   border-color: #fbeed5;
 }
 
-.panel-warning .panel-heading {
+.widget-panel-warning .widget-panel-heading {
   color: #c09853;
   background-color: #fcf8e3;
   border-color: #fbeed5;
 }
 
-.panel-danger {
+.widget-panel-danger {
   border-color: #eed3d7;
 }
 
-.panel-danger .panel-heading {
+.widget-panel-danger .widget-panel-heading {
   color: #b94a48;
   background-color: #f2dede;
   border-color: #eed3d7;
 }
 
-.panel-info {
+.widget--info {
   border-color: #bce8f1;
 }
 
-.panel-info .panel-heading {
+.widget--info .widget-heading {
   color: #3a87ad;
   background-color: #d9edf7;
   border-color: #bce8f1;

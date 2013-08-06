@@ -1,11 +1,16 @@
-$(document).ready(function(){
-   alert('here');
-    $("head").append("<link>");
-    css = $("head").children(":last");
-    css.attr({
-      rel:  "stylesheet",
-      type: "text/css",
-      href: "http://fast-crag-9968.herokuapp.com//assets/widgets/index.css"
-    });
-
-});
+function loadjscssfile(filename, filetype){
+ if (filetype=="js"){ //if filename is a external JavaScript file
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript")
+  fileref.setAttribute("src", filename)
+ }
+ else if (filetype=="css"){ //if filename is an external CSS file
+  var fileref=document.createElement("link")
+  fileref.setAttribute("rel", "stylesheet")
+  fileref.setAttribute("type", "text/css")
+  fileref.setAttribute("href", filename)
+ }
+ if (typeof fileref!="undefined")
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+loadjscssfile("http://fast-crag-9968.herokuapp.com//assets/widgets/index.css", "css") 

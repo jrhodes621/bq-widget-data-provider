@@ -17,7 +17,7 @@ class Api::DistributionListsController < ApplicationController
           media: [{
               name: "Logo",
               media_type: "image",
-              url: "http://localhost:3000/assets/samples/millies_logo.png",
+              url: "http://fast-crag-9968.herokuapp.com/assets/samples/millies_logo.png",
               tags: "millies, diner, logo"
             }]
         }],
@@ -32,7 +32,7 @@ class Api::DistributionListsController < ApplicationController
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image2.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image2.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -42,7 +42,7 @@ class Api::DistributionListsController < ApplicationController
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image3.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image3.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -53,7 +53,7 @@ beans, tomatoes, cheddar, crispy tortilla strips",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image4.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image4.jpg",
                   tags: "millies, diner, logo"
                 }]
               },{
@@ -64,7 +64,7 @@ meat, tomatoes, onions, peppers, corn & cheddar",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image5.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image5.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -74,7 +74,7 @@ meat, tomatoes, onions, peppers, corn & cheddar",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image6.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image6.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -84,7 +84,7 @@ meat, tomatoes, onions, peppers, corn & cheddar",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image7.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image7.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -94,7 +94,7 @@ meat, tomatoes, onions, peppers, corn & cheddar",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image8.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image8.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -104,7 +104,7 @@ meat, tomatoes, onions, peppers, corn & cheddar",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image9.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image9.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -114,7 +114,7 @@ meat, tomatoes, onions, peppers, corn & cheddar",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image10.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image10.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -124,7 +124,7 @@ meat, tomatoes, onions, peppers, corn & cheddar",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image1.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image1.jpg",
                   tags: "millies, diner, logo"
                 }]
               }]
@@ -138,7 +138,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image2.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image2.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -148,7 +148,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image3.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image3.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -158,7 +158,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image4.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image4.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -168,7 +168,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image5.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image5.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -178,7 +178,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image6.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image6.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -188,7 +188,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image7.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image7.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -198,7 +198,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image8.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image8.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -208,7 +208,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image9.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image9.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -218,7 +218,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image10.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image10.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -228,7 +228,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image1.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image1.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -238,7 +238,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image2.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image2.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -248,7 +248,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image3.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image3.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -258,7 +258,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image4.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image4.jpg",
                   tags: "millies, diner, logo"
                 }]
               }]
@@ -276,7 +276,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image5.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image5.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -286,7 +286,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image6.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image6.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -297,7 +297,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image7.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image7.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -307,7 +307,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image8.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image8.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -317,7 +317,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image9.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image9.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -327,7 +327,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image10.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image10.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -337,7 +337,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image1.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image1.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -347,7 +347,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image2.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image2.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -357,7 +357,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image3.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image3.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -367,7 +367,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image4.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image4.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -377,7 +377,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image5.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image5.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -387,7 +387,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image6.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image6.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -397,7 +397,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image7.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image7.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -407,7 +407,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image8.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image8.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -417,7 +417,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image9.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image9.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -427,7 +427,7 @@ sauce, melted white cheddar, pico de gallo and sour cream",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image10.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image10.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -438,7 +438,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image1.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image1.jpg",
                   tags: "millies, diner, logo"
                 }]
               }]
@@ -454,7 +454,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image2.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image2.jpg",
                   tags: "millies, diner, logo"
                 }]
               },{
@@ -464,7 +464,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image3.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image3.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -474,7 +474,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image4.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image4.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -484,7 +484,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image5.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image5.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -494,7 +494,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image6.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image6.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -504,7 +504,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image7.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image7.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -514,7 +514,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image8.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image8.jpg",
                   tags: "millies, diner, logo"
                 }]
               }]
@@ -527,7 +527,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image9.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image9.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -537,7 +537,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image10.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image10.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -547,7 +547,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image1.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image1.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -557,7 +557,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image2.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image2.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -567,7 +567,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image3.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image3.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -577,7 +577,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image4.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image4.jpg",
                   tags: "millies, diner, logo"
                 }]
               }, {
@@ -587,7 +587,7 @@ onion, Brie, mushrooms, avocado and sprouts",
                 media: [{
                   name: "Logo",
                   media_type: "image",
-                  url: "http://localhost:3000/assets/samples/image5.jpg",
+                  url: "http://fast-crag-9968.herokuapp.com/assets/samples/image5.jpg",
                   tags: "millies, diner, logo"
                 }]
               }]

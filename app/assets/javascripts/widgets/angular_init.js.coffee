@@ -4,7 +4,7 @@
 @app.config ['$routeProvider', ($routeProvider) ->
   base_page_url = '/'
   $routeProvider.when('/',
-    templateUrl: '/widgets/menu'
+    templateUrl: 'http://calm-harbor-9975.herokuapp.com/widgets/menu'
     controller: WidgetController 
     resolve: WidgetController.resolve
   ).otherwise redirectTo: base_page_url

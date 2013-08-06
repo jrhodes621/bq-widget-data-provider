@@ -2,8 +2,27 @@
 
   $scope.widget = distribution_list
 
+  $scope.selected_tab = 0
+  $scope.selected_category = 0
+  $scope.selected_subcategory = 0
+
   $scope.loading =
     show_spinner: false
+
+  $scope.show_tab = (index) ->
+    console.log "switch to tab " + index
+    $scope.selected_tab = index
+    $scope.selected_category = 0
+    $scope.selected_subcategory = 0
+
+  $scope.show_list = (index) ->
+    return $scope.selected_tab == index
+
+  $scope.show_category_clicked = (index) ->
+    $scope.selected_category = index
+
+  $scope.show_category = (index) ->
+    return $scope.selected_category == index
 
   window.scope = $scope
 

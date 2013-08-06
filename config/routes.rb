@@ -37,7 +37,7 @@ WidgetDataProvider::Application.routes.draw do
   #     resources :comments, :sales
   #     resource :seller
   #   end
-
+ resources :widgets, only: [:show]
   # Sample resource route with more complex sub-resources
   #   resources :products do
   #     resources :comments

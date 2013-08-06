@@ -3,5 +3,5 @@
 //
 //= require ./angular_init
 //= require_directory ./controllers
-//= require_directory ./service
+//= require_directory ./services
 //= require ./style_loader

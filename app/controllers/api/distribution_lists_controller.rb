@@ -267,7 +267,7 @@ tomatoes and mild curry, finished with melted white cheddar and avocado",
         }, {
           name: "Lunch",
           categories: [{
-              name: "",
+              name: "Mains",
                products: [{
                 name: "Devil's Mess",
                 description: "Open-faced omelet of spicy sausage, onions, green peppers, garlic,
@@ -446,7 +446,7 @@ onion, Brie, mushrooms, avocado and sprouts",
           }, {
           name: "Dinner",
           categories: [{
-            name: "Appetivers",
+            name: "Appetizers",
             products: [{
                 name: "Soup du Jour",
                 description: "",

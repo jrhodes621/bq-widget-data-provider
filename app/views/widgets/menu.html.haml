@@ -1,46 +1,47 @@
-.row-fluid
-	%div.row{"ng-repeat" => "location in widget.locations"}
-		%div.col-3
-			%img{"ng-src"=>"{{location.media[0].url}}", "style" =>"max-width:200px;"}
-		%div.col-9
-			%dl
-				%dd 
-					{{location.street_address_line_1}}
-				%dd
-					{{location.city}}, {{location.state}} {{location.zip_code}}
-				%dd
-					{{location.phone}}
-.row-fluid
-	%ul.nav.nav-tabs
-		%li.active{"ng-repeat" => "list in widget.lists", "ng-click" => "show_tab($index)"}
-			%a
-				{{list.name}}
-.row-fluid
-	%div.product-list{"ng-repeat" => "list in widget.lists", "ng-show" => "show_list($index)"}
-		%div.category-name{"ng-repeat" => "category in list.categories","ng-click" => "show_category_clicked($index)"}
-			%div.panel
-				%div.panel-heading
-					{{category.name}}
-				%ul.list-group{"ng-show" => "show_category($index)"}
-					%li.list-group-item{"ng-repeat" => "product in category.products"}
-						%div.media.product
-							%a.pull-left
-								%img.media-object{"ng-src"=>"{{product.media[0].url}}", "style" =>"max-width:120px;"}
-							%div.media-body
-								%div.row
-									%div.col-8
-										%h5
-											{{product.name}}
-										%p
-											{{product.description}}
-									%div.col-2
-										%ul
-											%li
-												Like
-											%li
-												Share
-											%li
-												Pin
-									%div.col-2
-										%p
-											{{product.price | currency}}
+%div.reset.widget
+	.row-fluid
+		%div.row{"ng-repeat" => "location in widget.locations"}
+			%div.col-3
+				%img{"ng-src"=>"{{location.media[0].url}}", "style" =>"max-width:200px;"}
+			%div.col-9
+				%dl
+					%dd 
+						{{location.street_address_line_1}}
+					%dd
+						{{location.city}}, {{location.state}} {{location.zip_code}}
+					%dd
+						{{location.phone}}
+	.row-fluid
+		%ul.nav.nav-tabs
+			%li.active{"ng-repeat" => "list in widget.lists", "ng-click" => "show_tab($index)"}
+				%a
+					{{list.name}}
+	.row-fluid
+		%div.product-list{"ng-repeat" => "list in widget.lists", "ng-show" => "show_list($index)"}
+			%div.category-name{"ng-repeat" => "category in list.categories","ng-click" => "show_category_clicked($index)"}
+				%div.panel
+					%div.panel-heading
+						{{category.name}}
+					%ul.list-group{"ng-show" => "show_category($index)"}
+						%li.list-group-item{"ng-repeat" => "product in category.products"}
+							%div.media.product
+								%a.pull-left
+									%img.media-object{"ng-src"=>"{{product.media[0].url}}", "style" =>"max-width:120px;"}
+								%div.media-body
+									%div.row
+										%div.col-8
+											%h5
+												{{product.name}}
+											%p
+												{{product.description}}
+										%div.col-2
+											%ul
+												%li
+													Like
+												%li
+													Share
+												%li
+													Pin
+										%div.col-2
+											%p
+												{{product.price | currency}}
